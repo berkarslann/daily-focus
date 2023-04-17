@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Daily'Focus</title>
+    <link rel="shortcut icon" href="favicon.ico">
+   
+    <link rel="stylesheet" href="../daily_focus/css/style.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+   
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    
+  </head>
+<body>
+    
+    <!-- navbar -->
+    <nav>
+        <div class="nav-wrapper">
+          <img src="./img/logo.png" class="logo" alt="Paris">
+          <div href="#" class="brand-logo">Daily'Focus</div>
+          <a class="first-info" href="#infos">Daily min-max sistemi nedir?</a>
+        </div>
+      </nav>
+     
+      <!--this is a section for motivation sentences it comes from api-->
+      <div class="motivation-container">
+
+        <div class="motivation" id="motivation"></div>
+        <div class="motivation-author" id="motivation-author"></div>
+
+
+      </div>
+     
+      <!--daily'min and max container-->
+      <div class="daily-container">
+        <div class="daily-min-container">
+            <div class="daily-min"> <span class="dailytip">daily'min</span> pomodoro sayısı:</div>
+            <input list ="input" class="Input-text" id="Input-text"  placeholder=""> 
+            <button class="button-6" role="button" id="button-daily-min">Kaydet</button>
+
+
+        </div>
+       
+        <div class="complete-info">
+          <div class="tasks">daily'min pomodoro bar:</div>
+          <div class="done-boxes" id="done-boxes"> 
+            
+            <i class="icon fa-regular fa-circle-check fa-lg icons belge" style="color: #006d8f;" id="123"></i>
+            
+        
+
+          </div>
+        </div>
+      
+
+        <div class="daily-max-container">
+          <div class="daily-max"> <span class="dailytip">daily'max</span> pomodoro sayısı: </div>
+          <input list ="input2" class="Input-text" id="Input-text2" placeholder=""> 
+           
+          <button class="button-6" role="button" id="button-daily-max">Kaydet</button>
+        </div>
+        <div class="complete-info">
+          <div class="tasks">daily'max pomodoro bar:</div>
+          <div class="done-boxes" id="done-boxes2">
+            
+            <i class="icon fa-regular fa-circle-check fa-lg icons belge2"  id="1234" style="color: #006d8f;"></i>
+            
+        
+
+          </div>
+        </div>
+
+ 
+
+      </div>
+
+      
+
+  
+
+      <!--pomodoro section-->
+      <div class="pomodoro">
+        <div class="break-container">
+          <button class="pomodoro-break" role="button" id="pomodoro-break">Pomodoro</button>
+          <button class="short-break" id="short-break">Kısa Mola</button>
+          <button class="long-break" id="long-break">Uzun Mola</button>
+
+        </div>
+       
+        <div class="timer" id="timer">
+          <div class="minutes" id="minutes"></div>
+          <div class="seconds" id="seconds"></div>
+
+
+        </div>
+        <button class="button-6" id="pomodoroButton" role="button">Başlat</button>
+        <button class="button-6" id="stopButton" role="durdur">Durdur</button>
+      </div>
+
+     
+
+      <!--information section-->
+
+      <div class="infos" id="infos">
+
+        <div class="what-is">
+          <h2>Daily Focus Nedir?</h2>
+          Daily’Focus, sizin çalışma kapasitenizi artırmaya yönelik bir tekniktir. Bu internet sitesinin amacı, ders çalışmak, kodlama yapmak, herhangi bir işi yetiştirmek gibi görevlerinizi tamamlamakta size oldukça yardımcı olabilecek olan bu tekniği basit bir arayüzle sunmaktır.
+        </div>
+        <div class="what-is">
+          <h2>Daily’Focus Tekniği Nedir?</h2>
+          Biz insanlar bir şeyi iyi yapmak için çalışma kapasitemizi sürekli artırmak durumundayız. Başarının tek olmasa da en önemli unsuru budur. Daily’Focus tekniği, sizin çalışma hacminizi artırmaya ve odağınızın dağılmamasına yardımcı olur. Böylece çalışma kapasitenizi artırmış olursunuz. Bu tekniği uygularken bir standart belirlemek için pomodoro tekniğini de kullanıyoruz.
+        <br> <br>1 Daily Focus döngüsü 4 haftadır.
+
+
+        </div>
+        <div class="what-is">
+          <h2>Daily’Focus Nasıl Uygulanır?</h2>
+          Daily’Focus tekniğinde üç kavramımız var: Daily’min,  Daily’max ve Pomodoro.
+
+<br><br>Daily’min dediğimiz şey, 4 haftalık döngümüz öncesinde belirlediğimiz ve istinasız her gün (yani her çalışma günü) minimum çalışacağımız dakikadır. Bu dakikayı bir standarta oturup basitleştirmek için ‘pomodoro’ tekniğini kullanıyoruz. 1 Pomodoro 25 dakikalık çalışma süresidir. Bunu, 4 haftalık çalışma periyodumuzdan önce seviyemize göre belirliyoruz. Tavsiyemiz, başlangıçta daily-min’inizi 2 pomodoro yani 50 dakika olarak belirlemenizdir. 
+
+<br> <br>Yani eğer Daily’min pomodoronuzu 2 pomodoro olarak belirlediyseniz, çalışma günlerinizde (örneğin sınava hazırlanan bir lise öğrencisi için haftanın 6 günü) o gün ne hissederseniz hissedin, ne yaşarsanız yaşayın, çalışmak için masaya oturup minimum 50 dakika çalışacaksınız demektir.
+
+<br><br>Daily’max dediğimiz şey ise, o günkü hissiyatımıza göre belirlediğimiz çalışma dakikasıdır. Belirlediğimiz Daily’min pomodorosunun altına düşmeyecek şekilde, o günkü hissiyatımıza göre belirliyoruz. Mesela o gün daily’min pomodoronuzu tamamladınız ama hala çalışma isteğiniz var. O zaman daily’max pomodorom bugünlük 8 olsun diyorsunuz ve 8x25’ten 2 saat çalışıyorsunuz.
+
+
+        </div>
+        <div class="what-is">
+          <h2>Daily'Focus Tekniği Uygulama Adımları</h2>
+          1.	4 haftalık bir döngü için haftada kaç gün çalışacağınızı, nelere odaklanacağınızı ve kendinizi geliştirmek için neler yapmanız gerektiği üzerine düşünüp planınızı yapın. 
+          <br>2.	4 haftalık döngü için bir daily’min belirleyin. Önerimiz 1 veya 2 pomodorodur. Unutmayın; ne olursa olsun seçtiğiniz daily’min pomodorosunu tamamlamak zorundasınız.
+          <br>3.	Çalışma gününüzde iyi hissederseniz bir daily’min pomodorunuzu aştıktan sonra o gün için daily’max belirleyin ve aşmaya çalışın.<br><br>
+
+
+
+
+        </div>
+       
+        <hr />
+      </div>
+      <div class="footer-basic">
+        <footer>
+            <div class="social"><a href="http://instagram.com/berk.arsln?igshid=ZWlzMWE5ZmU3Zg=="><i class="icon ion-social-instagram"></i></a></a></a><a href="https://facebook.com/berkarslann"><i class="icon ion-social-facebook"></i></a></div>
+            <ul class="list-inline">
+                <li class="list-inline-item"><a href="#">Anasayfa</a></li>
+                <li class="list-inline-item"><a href="#">İletişim</a></li>
+                <li class="list-inline-item"><a href="https://github.com/berkarslann">GitHub</a></li>
+            </ul>
+            <p class="copyright">@Daily'Focus © 2023</p>
+        </footer>
+
+
+            
+
+
+
+
+      <script src="app.js"></script>
+</body>
+</html>

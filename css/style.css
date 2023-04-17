@@ -1,0 +1,418 @@
+@import url('https://fonts.googleapis.com/css2?family=Delicious+Handrawn&family=Source+Sans+Pro:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald&family=Raleway:ital@1&family=Source+Sans+Pro:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Lobster&family=Oswald&family=Raleway:ital@1&family=Source+Sans+Pro:wght@200&family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Lobster&family=Oswald&family=Raleway:ital@1&family=Roboto+Condensed&family=Source+Sans+Pro:wght@200&family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alkatra&family=Bree+Serif&family=Lobster&family=Oswald&family=Playfair+Display:ital@1&family=Raleway:ital@1&family=Roboto+Condensed&family=Source+Sans+Pro:wght@200&family=Ubuntu&display=swap');
+*{
+   
+
+    
+    box-sizing: border-box;
+    font-family: 'Bree Serif', serif;
+
+}
+
+body{
+    background-color: #004d65;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+   
+  
+   
+
+
+
+}
+
+
+.nav-wrapper{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    font-size: 60px;
+    
+
+
+    
+  
+ 
+
+    
+}
+
+
+.brand-logo{
+    font-family: 'Oswald', sans-serif;
+    font-style: italic;
+    padding-right: 150px;
+    
+}
+
+.first-info{
+  
+    font-size: 15px;
+    background-color: #006d8f;
+    text-decoration: none;
+    padding: 10px;
+    margin-top: 10px;
+    color: black;
+    border: 0.8px;
+    border-style: solid;
+    border-color: white;
+    color: white;
+}
+
+.motivation-container{
+    height: 80px;
+    width: 1000px;
+    margin: 10px;
+    color: white;
+    
+      box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+}
+
+.daily-container{
+    margin-top: 10px;
+    width: 1000px;
+    height: 200px;
+    color: white;
+    min-width: 50px;
+}
+.daily-min-container{
+
+    display: flex;
+    justify-content:first baseline;
+}
+.daily-min{
+    font-size: 30px;
+}
+
+.dailytip{
+    font-style: italic;
+}
+
+.daily-max-container{
+    display: flex;
+    justify-content:first baseline;
+
+}
+
+.daily-max{
+    font-size: 30px;
+}
+
+.pomodoro{
+    margin-top: -50px;
+  
+    height: 300px;
+    width: 300px;
+   
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 0px;
+    font-family: 'Oswald', sans-serif;
+    color: white;
+
+}
+
+.timer{
+    font-size: 70px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+
+
+.complete-info{
+    display: flex;
+  
+    
+}
+.tasks{
+    color: white;
+    margin-right:10px ;
+}
+
+.infos{
+    
+    display: flex;
+    background-color:rgb(248, 248, 245);
+    width: 100% ;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 135px;
+
+    
+}   
+
+.what-is{
+    display: flex;
+    width: 900px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.done-boxes{
+    background-color: white;
+    height: 25px;
+
+}
+.icon{
+    margin: 5px;
+}
+.footer{
+    color: white;
+    text-decoration: none;
+    
+}
+.footer2{
+    
+    color: white;
+}
+
+.icons:hover{
+
+    transform: scale(1.1);
+}
+
+.break-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position:relative;
+    margin-top: -40px;
+
+    
+}
+
+.pomodoro-break{
+    margin: 4px;
+    background-color:#012834;
+    color: white;
+    border: none;
+    font-size: 15px;
+    
+}
+.pomodoro-break:hover, .short-break:hover, .long-break:hover{
+    cursor: pointer;
+}
+.short-break{
+    margin: 4px;
+   background-color: transparent;
+    color: white;
+    border: none;
+    font-size: 15px;
+
+}
+.long-break{
+    margin: 4px;
+   background-color: transparent;
+    color: white;
+    border: none;
+    font-size: 15px;
+
+}
+
+.motivation{
+    font-size:30px;
+    font-family: 'Alkatra', cursive;
+    margin-left: 200px;
+    
+}
+
+.motivation-author{
+    margin-left: 700px;
+}
+
+.timer{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.minutes{
+    margin: 10px;
+}
+.seconds{
+    margin: 10px;
+}
+
+/* input design taken from a website*/
+.Input-text {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    display: block;
+    margin: 5px;
+    
+    color: inherit;
+    font-family: inherit;
+    font-size: var(--inputFontSize);
+    font-weight: inherit;
+    line-height: var(--inputLineHeight);
+    border: none;
+    border-radius: 0.4rem;
+    transition: box-shadow var(--transitionDuration);
+    color: black;
+  }
+  
+
+ .contactInfos{
+    display: flex;
+    
+ }
+
+ .home, .contact, .simple-page{
+    margin: 10px;
+    text-decoration: none;
+    border-color: white;
+    color: whitesmoke;
+    
+    
+ }
+
+
+/* button design taken from a website */
+.button-6 {
+  align-items: center;
+  background-color: #FFFFFF;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: .25rem;
+  box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
+
+  color: rgba(0, 0, 0, 0.85);
+  cursor: pointer;
+  display: inline-flex;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  justify-content: center;
+  line-height: 1.25;
+  margin-top: 5px;
+
+  width: 80px;
+  height: 30px;
+  position: relative;
+  text-decoration: none;
+  transition: all 250ms;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: baseline;
+  
+}
+
+.button-6:hover,
+.button-6:focus {
+  border-color: rgba(0, 0, 0, 0.15);
+  box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+  color: rgba(0, 0, 0, 0.65);
+}
+
+.button-6:hover {
+  transform: translateY(-1px);
+}
+
+.button-6:active {
+  background-color: #F0F0F1;
+  border-color: rgba(0, 0, 0, 0.15);
+  box-shadow: rgba(0, 0, 0, 0.06) 0 2px 4px;
+  color: rgba(0, 0, 0, 0.65);
+  transform: translateY(0);
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    
+}
+.footer-basic {
+    padding:40px 0;
+    background-color:rgb(248, 248, 245);
+    color:#4b4c4d;
+    width: 100%;
+   
+  }
+  
+  .footer-basic ul {
+    padding:0;
+    list-style:none;
+    text-align:center;
+    font-size:18px;
+    line-height:1.6;
+    margin-bottom:0;
+  }
+  
+  .footer-basic li {
+    padding:0 10px;
+  }
+  
+  .footer-basic ul a {
+    color:inherit;
+    text-decoration:none;
+    opacity:0.8;
+  }
+  
+  .footer-basic ul a:hover {
+    opacity:1;
+  }
+  
+  .footer-basic .social {
+    text-align:center;
+    padding-bottom:25px;
+    
+  }
+  
+  .footer-basic .social > a {
+    font-size:24px;
+    width:40px;
+    height:40px;
+    line-height:40px;
+    display:inline-block;
+    text-align:center;
+    border-radius:50%;
+    border:1px solid #ccc;
+    margin:0 8px;
+    color:inherit;
+    opacity:0.75;
+  }
+  
+  .footer-basic .social > a:hover {
+    opacity:0.9;
+  }
+  
+  .footer-basic .copyright {
+    margin-top:15px;
+    text-align:center;
+    font-size:13px;
+    color:#aaa;
+    margin-bottom:0;
+  }
+  
+  .footer-basic .list-inline{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  /* Credit to https://epicbootstrap.com/snippets/footer-basic */
+
+  hr {
+    width: 100%;
+    
+    margin-left: auto;
+    margin-right: auto;
+    background-color: black;
+  }
+
+.logo{
+    width: 150px;
+    height: 150px;
+    margin: 10px
+}
