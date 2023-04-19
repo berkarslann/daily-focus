@@ -2,6 +2,8 @@
 <img width="501" alt="Ekran Resmi 2023-04-18 15 59 34" src="https://user-images.githubusercontent.com/70469925/232785122-96df13ac-ec46-48d0-86ec-ab78aff64f9b.png">
 
 
+TRY IT: https://643f8991df7eea5b5cfe561e--rainbow-kashata-ed5246.netlify.app
+
 People have to constantly increase their working capacity to do something well. This is the most important, if not the only, element of success. The Daily'Focus technique helps you increase your working volume and keep your focus. Thus, you increase your working capacity.
 This method has created to increase focusing. I adapted a method applied in weightlifting to real life in order to increase our working concentration.  
 
