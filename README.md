@@ -2,7 +2,7 @@
 
 <p align="center"><img src="https://user-images.githubusercontent.com/70469925/232785122-96df13ac-ec46-48d0-86ec-ab78aff64f9b.png" alt="project-image"></p>
 
-<p id="description">I adapted a method applied in weightlifting to real life in order to increase our working concentration.</p>
+<p id="description">I adapted a method applied in weightlifting to real life in order to increase our working concentration. Currently working on it's back-end side to implement AI.</p>
 
 <h2>🚀 Demo</h2>
 
